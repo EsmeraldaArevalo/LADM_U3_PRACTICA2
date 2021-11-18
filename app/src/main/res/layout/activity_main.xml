@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F6FA"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/idp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:hint="Ingresa 'ID' solo para consultar"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Lugar"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Hora 00:00 PM/AM"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Fecha dia/mes/año"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Descripcion"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="120dp"
+        android:text="Borrar"
+        tools:ignore="TouchTargetSizeCheck"
+        android:drawableLeft="@drawable/borrar_archivo"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#D69AEF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-50dp"
+        android:text="Insertar"
+        tools:ignore="TouchTargetSizeCheck"
+        android:drawableLeft="@drawable/insertar"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#D69AEF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Sincronizar"
+        tools:ignore="TouchTargetSizeCheck"
+        android:drawableLeft="@drawable/sincronizando"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#ef9a9a"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="120dp"
+        android:text="Consultar"
+        tools:ignore="TouchTargetSizeCheck"
+        android:drawableLeft="@drawable/buscar_archivo"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#D69AEF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

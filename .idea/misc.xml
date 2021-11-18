@@ -3,17 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_PRACTICA2-main/LADM_U3_PRACTICA2/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_PRACTICA2-main/LADM_U3_PRACTICA2/src/main/res/layout/activity_main2.xml" value="0.25" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_PRACTICA2-main/LADM_U3_PRACTICA2/src/main/res/layout/activity_main3.xml" value="0.25" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_PRACTICA2-main/LADM_U3_PRACTICA2/src/main/res/menu/menu.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica2/LADM_U3_PRACTICA2/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica2/LADM_U3_PRACTICA2/src/main/res/menu/menu.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica2_basedatos/LADM_U3_PRACTICA2/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica2_basedatos/LADM_U3_PRACTICA2/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica2_basedatos/LADM_U3_PRACTICA2/src/main/res/layout/activity_main3.xml" value="0.33" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica2_basedatos/LADM_U3_PRACTICA2/src/main/res/layout/menu.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica2_basedatos/LADM_U3_PRACTICA2/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/LADM_U3_Practica2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/LADM_U3_Practica2/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/LADM_U3_Practica2/app/src/main/res/layout/activity_main3.xml" value="0.33" />
+        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica1/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica1/app/src/main/res/layout/activity_main3.xml" value="0.25" />
+        <entry key="..\:/Users/EsmeraldaArevalo/AndroidStudioProjects/LADM_U3_Practica1/app/src/main/res/menu/menuppal.xml" value="0.1" />
       </map>
     </option>
   </component>

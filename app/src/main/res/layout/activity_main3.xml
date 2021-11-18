@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFF9E7"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="CONSULTAS DE EVENTOS"
+        android:layout_marginBottom="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        />
+
+    <EditText
+        android:id="@+id/FInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="date"
+        android:hint="Fecha Incial dia/mes/año"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/FFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="date"
+        android:hint="Fecha Final dia/mes/año"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="120dp"
+        android:text="MAÑANA"
+        tools:ignore="TouchTargetSizeCheck"
+        android:drawableLeft="@drawable/dia"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#D69AEF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-50dp"
+        android:text="HOY"
+        tools:ignore="TouchTargetSizeCheck"
+        android:drawableLeft="@drawable/calendario"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#D69AEF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="RANGO"
+        tools:ignore="TouchTargetSizeCheck"
+        android:drawableLeft="@drawable/RANGO"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#D69AEF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="120dp"
+        android:text="SALIR"
+        tools:ignore="TouchTargetSizeCheck"
+        android:drawableLeft="@drawable/salida"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#ef9a9a"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
